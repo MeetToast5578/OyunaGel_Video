@@ -22,7 +22,7 @@ export const Cold: React.FC = () => {
       )}
       {f >= 60 && f < 120 && (
         <AbsoluteFill style={{ alignItems: 'center', justifyContent: 'center', ...out(112) }}>
-          <Words size={130} words={['Top', 'oynamaq', 'istəyirsən.']} delay={60} stagger={10} />
+          <Words size={112} words={['Futbol', 'oynamaq', 'istəyirsən.']} delay={60} stagger={10} />
         </AbsoluteFill>
       )}
       {f >= 120 && (
